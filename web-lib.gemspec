@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = 'web-lib'
   s.version     = WebLib::VERSION
   s.date        = '2013-04-03'
-  s.summary     = "A collection of amazing JS libraries and CSS framworks I use a lot (that are not distributed as gems unfortunately)"
+  s.summary     = "A collection of amazing JS libraries and CSS frameworks I use a lot (that are not distributed as gems unfortunately)"
   s.description = "Yeah"
   s.authors     = ["Jonathan Pettersson"]
   s.email       = 'jonathan@spacetofu.com'
@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.homepage    = 'https://github.com/jpettersson/jslibs'
 
-  s.add_runtime_dependency "exojs"
+  #s.add_runtime_dependency "exojs"
 end

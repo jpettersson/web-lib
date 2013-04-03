@@ -7,6 +7,8 @@ Bundler creates a mess.
 That's why I've packaged my most frequently used JS libraries and CSS frameworks into a microgem that I can install
 directly from this repo. Read my [blog post](http://url) on the subject if you think this sounds crazy.
 
+<br />
+
 Libraries on the edge
 ---------------------
 
@@ -20,6 +22,8 @@ replace them, but I will be sleeping well since dependencies of my old projects 
 | [spine.js](http://spinejs.com/) | @maccman | [License](https://github.com/spine/spine/blob/master/LICENSE)
 | [TweenMax](http://www.greensock.com/tweenmax/) | Jack Doyle | [License](http://www.greensock.com/terms_of_use.html)
 | [Modernizr](http://modernizr.com/) | See site | [MIT](http://modernizr.com/license/)
+
+<br />
 
 Example usage with Rails / Middleman
 ------------------------------------

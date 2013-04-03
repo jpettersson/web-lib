@@ -2,8 +2,10 @@ web-lib *microgem*
 ==================
 
 When working in Rails & Middleman JavaScript libraries and CSS frameworks are real dependencies. Managing them outside of 
-Bundler creates a mess. That's why I've packaged my most frequently used web libraries into a microgem that I can install
-directly from this repo. Read my [blog post](http://url) on the subject if you still think I'm crazy.
+Bundler creates a mess. 
+
+That's why I've packaged my most frequently used web libraries into a microgem that I can install
+directly from this repo. Read my [blog post](http://url) on the subject if you think this sounds crazy.
 
 Libraries on the edge
 ---------------------
@@ -11,8 +13,8 @@ Libraries on the edge
 The following is a list of libraires included in the edge version of this microgem. As my preferences change I might 
 replace them, but I will be sleeping well since dependencies of my old projects are managed by Bundler.
 
-Packaged libraries
--------------
+**Packaged libraries:**
+
 | Name            | Author(s)         | License       |
 |-----------------|-------------------|---------------|
 | [spine.js](http://spinejs.com/) | @maccman | [License](https://github.com/spine/spine/blob/master/LICENSE)

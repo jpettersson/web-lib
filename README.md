@@ -1,6 +1,8 @@
 web-lib *microgem*
 ==================
 
+I manage my JS/CSS dependencies with a microgem, you should too!
+
 When working in Rails & Middleman JavaScript libraries and CSS frameworks are real dependencies. Managing them outside of 
 Bundler creates a mess. That's why I've packaged my most frequently used web libraries into a microgem that I can install
 directly from this repo. Read my [blog post](http://url) on the subject if you still think I'm crazy.
@@ -41,5 +43,5 @@ gem 'web-lib', :git => 'https://github.com/jpettersson/web-lib/'
 Fork!
 -----
 The workflow and the microgem itself are easily forked. The idea behing the generic namespace 'web-lib' is that anyone 
-can customize the contents to suit their needs. It also implies that there should be only one jslib per project to 
+can customize the contents to suit their needs. It also implies that there should be only one web-lib per project to 
 keep things manageable.

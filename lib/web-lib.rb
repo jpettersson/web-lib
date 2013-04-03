@@ -1,4 +1,4 @@
-module JSLib
+module WebLib
 
   if defined?(Rails)
     module Rails
@@ -10,4 +10,4 @@ module JSLib
 
 end
 
-require_relative 'jslib/version'
+require_relative 'web-lib/version'

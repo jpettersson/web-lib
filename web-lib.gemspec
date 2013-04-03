@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "jslib/version"
+require "web-lib/version"
 
 Gem::Specification.new do |s|
-  s.name        = 'jslib'
-  s.version     = JSLib::VERSION
+  s.name        = 'web-lib'
+  s.version     = WebLib::VERSION
   s.date        = '2013-04-03'
-  s.summary     = "A collection of amazing JS libs I use a lot (that are not distributed as gems unfortunately)"
+  s.summary     = "A collection of amazing JS libraries and CSS framworks I use a lot (that are not distributed as gems unfortunately)"
   s.description = "Yeah"
   s.authors     = ["Jonathan Pettersson"]
   s.email       = 'jonathan@spacetofu.com'

@@ -30,7 +30,7 @@ Example usage with Rails / Middleman
 
 **Gemfile**
 ```Ruby
-gem 'web-lib', :github => 'https://github.com/jpettersson/web-lib/'
+gem 'web-lib', :git => 'https://github.com/jpettersson/web-lib/'
 ```
 
 **application.js**

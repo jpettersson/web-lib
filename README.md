@@ -11,7 +11,6 @@ Libraries on the edge
 The following is a list of libraires included in the edge version of this microgem. As my preferences change I might 
 replace them, but I will be sleeping well since dependencies of my old projects are managed by Bundler.
 
-Vendored libraries
 -------------
 | Name            | Author(s)         | License       |
 |-----------------|-------------------|---------------|

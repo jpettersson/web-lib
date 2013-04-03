@@ -11,23 +11,22 @@ Libraries on the edge
 The following is a list of libraires included in the edge version of this microgem. As my preferences change I might 
 replace them, but I will be sleeping well since dependencies of my old projects are managed by Bundler.
 
-Included as gem dependecies
----------------------------
+Gem dependecies
+---------------
 | Name            | Author(s)         | License       |
 |-----------------|-------------------|---------------|
 | [exo.js](http://https://github.com/jpettersson/exo.js) | @jpettersson | MIT
 
-Vendored into the microgem
---------------------------
+Vendored libs
+-------------
 | Name            | Author(s)         | License       |
 |-----------------|-------------------|---------------|
 | [spine.js](http://spinejs.com/) | @maccman | [License](https://github.com/spine/spine/blob/master/LICENSE)
 | [TweenMax](http://www.greensock.com/tweenmax/) | Jack Doyle | [License](http://www.greensock.com/terms_of_use.html)
 | [Modernizr](http://modernizr.com/) | See site | [MIT](http://modernizr.com/license/)
 
-
 Example usage with Rails / Middleman
---------------------------
+------------------------------------
 
 **Gemfile**
 ```Ruby

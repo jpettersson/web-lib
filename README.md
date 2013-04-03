@@ -1,20 +1,32 @@
-jslib micro gem
-=====
+web-lib *microgem*
+==================
 
-I work a lot in Rails and Middleman and have been missing a good version system to manage JavaScript libraries. This is a micro-gem I use to manage the version of my most frequently used JavaScript libraries since some of them don't currently have official gem distributions.
+When working in Rails & Middleman JavaScript libraries and CSS frameworks are real dependencies. Managing them outside of 
+Bundler creates a mess. That's why I've packaged my most frequently used web libraries into a microgem that I can install
+directly from this repo. Read my [blog post](http://url) on the subject if you still think I'm crazy.
 
-Currently included libraries
-----------------------------
+Libraries on the edge
+---------------------
 
+The following is a list of libraires included in the edge version of this microgem. As my preferences change I might 
+replace them, but I will be sleeping well since dependencies of my old projects are managed by Bundler.
+
+Gem dependecies
+---------------
 | Name            | Author(s)         | License       |
 |-----------------|-------------------|---------------|
 | [exo.js](http://https://github.com/jpettersson/exo.js) | @jpettersson | MIT
+
+Vendored libs
+-------------
+| Name            | Author(s)         | License       |
+|-----------------|-------------------|---------------|
 | [spine.js](http://spinejs.com/) | @maccman | [License](https://github.com/spine/spine/blob/master/LICENSE)
 | [TweenMax](http://www.greensock.com/tweenmax/) | Jack Doyle | [License](http://www.greensock.com/terms_of_use.html)
 | [Modernizr](http://modernizr.com/) | See site | [MIT](http://modernizr.com/license/)
 
-Use with Rails / Middleman
---------------------------
+Example usage with Rails / Middleman
+------------------------------------
 
 **Gemfile**
 ```Ruby
@@ -31,3 +43,9 @@ gem 'jslib', :github => 'https://github.com/jpettersson/jslib/'
 //= require 'jslib/TweenMax.min'
 
 ```
+
+Fork!
+-----
+The workflow and the microgem itself are easily forked. The idea behing the generic namespace 'jslib' is that anyone 
+can customize the contents to suit their needs. It also implies that there should be only one jslib per project to 
+keep things manageable.

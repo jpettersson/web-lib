@@ -30,22 +30,22 @@ Example usage with Rails / Middleman
 
 **Gemfile**
 ```Ruby
-gem 'jslib', :github => 'https://github.com/jpettersson/jslib/'
+gem 'web-lib', :github => 'https://github.com/jpettersson/web-lib/'
 ```
 
 **application.js**
 ```JavaScript
 
 // Require everything
-//= require_tree 'jslib'
+//= require_tree 'web-lib'
 
 // Or selectively
-//= require 'jslib/TweenMax.min'
+//= require 'web-lib/TweenMax.min'
 
 ```
 
 Fork!
 -----
-The workflow and the microgem itself are easily forked. The idea behing the generic namespace 'jslib' is that anyone 
+The workflow and the microgem itself are easily forked. The idea behing the generic namespace 'web-lib' is that anyone 
 can customize the contents to suit their needs. It also implies that there should be only one jslib per project to 
 keep things manageable.

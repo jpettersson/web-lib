@@ -1,4 +1,4 @@
-jslib
+JS Lib
 =====
 
 I work a lot in Rails and Middleman and have been missing a good version system to manage JavaScript libraries. This is a micro-gem I use to manage the version of my most frequently used JavaScript libraries since some of them don't currently have official gem distributions.

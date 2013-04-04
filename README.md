@@ -1,7 +1,8 @@
 web-lib *microgem*
 ==================
 
-* When working in Rails & Middleman, JS libraries and CSS frameworks are real dependencies.
+When working with Rails & Middleman:
+* JS libraries and CSS frameworks are real dependencies.
 * Trying to manage them outside of Bundler creates a mess. 
 
 That's why I've packaged my most frequently used JS & CSS libs into a microgem that I can install

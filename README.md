@@ -6,7 +6,7 @@ When working with Rails & Middleman:
 * Trying to manage them outside of Bundler creates a mess. 
 
 That's why I've packaged my most frequently used JS & CSS libs into a microgem that I can install
-directly from this repo. <br />Read my [blog post](http://url) on the subject if you think this sounds crazy.
+directly from this repo. <br />I've written a [blog post](http://url) on why it's awesome.
 
 <br />
 

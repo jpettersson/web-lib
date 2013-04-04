@@ -23,8 +23,6 @@ replace them, but I will be sleeping well since dependencies of my old projects 
 | [TweenMax](http://www.greensock.com/tweenmax/) | Jack Doyle | [License](http://www.greensock.com/terms_of_use.html)
 | [Modernizr](http://modernizr.com/) | See site | [MIT](http://modernizr.com/license/)
 
-<br />
-
 Example usage with Rails / Middleman
 ------------------------------------
 
@@ -43,8 +41,6 @@ gem 'web-lib', :git => 'https://github.com/jpettersson/web-lib/'
 //= require 'web-lib/TweenMax.min'
 
 ```
-
-<br />
 
 Fork!
 -----

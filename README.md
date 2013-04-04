@@ -19,7 +19,7 @@ replace them, but I will be sleeping well since dependencies of my old projects 
 
 | Name            | Author(s)         | License       |
 |-----------------|-------------------|---------------|
-| [spine.js](http://spinejs.com/) | @maccman | [License](https://github.com/spine/spine/blob/master/LICENSE)
+| [spine.js](http://spinejs.com/) | Alex MacCaw | [License](https://github.com/spine/spine/blob/master/LICENSE)
 | [TweenMax](http://www.greensock.com/tweenmax/) | Jack Doyle | [License](http://www.greensock.com/terms_of_use.html)
 | [Modernizr](http://modernizr.com/) | See site | [MIT](http://modernizr.com/license/)
 
